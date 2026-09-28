@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Cortex Trivia — Results</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<!-- JOSE INTEGRATION: app.js uses data-page="results" -->
+<body data-page="results">
+  <header class="header">
+    <div class="container header__inner">
+      <h1 class="brand">Cortex Trivia</h1>
+      <div class="row">
+        <span class="pill">Results</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Final Results</h2>
+
+      <div class="panel">
+        <div class="row">
+          <div>
+            <div class="label muted">Correct</div>
+            <div class="mono" id="correctCount">—</div>
+          </div>
+          <div>
+            <div class="label muted">Wrong</div>
+            <div class="mono" id="wrongCount">—</div>
+          </div>
+          <div>
+            <div class="label muted">Score (out of 100)</div>
+            <div class="mono" id="scorePoints">—</div>
+          </div>
+        </div>
+
+        <div class="status" id="resultsStatus">Loading results…</div>
+
+        <div class="row right">
+          <!-- JOSE INTEGRATION: real button so app.js can clear state -->
+          <button class="btn primary" id="backToLobbyBtn">Back to Lobby</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "E001",
+    "difficulty": "easy",
+    "category": "cs_fundamentals",
+    "question": "What does CPU stand for?",
+    "choices": ["Central Processing Unit", "Computer Power Utility", "Core Program Upload", "Central Program Unit"],
+    "answerIndex": 0
+  },
+  {
+    "id": "E002",
+    "difficulty": "easy",
+    "category": "cs_fundamentals",
+    "question": "Which data structure works on a first in, first out rule?",
+    "choices": ["Stack", "Queue", "Tree", "Graph"],
+    "answerIndex": 1
+  },
+  {
+    "id": "E003",
+    "difficulty": "easy",
+    "category": "web",
+    "question": "What does HTML stand for?",
+    "choices": ["HyperText Markup Language", "High Transfer Machine Language", "Hyperlink Text Management Language", "Home Tool Markup Language"],
+    "answerIndex": 0
+  },
+  {
+    "id": "E004",
+    "difficulty": "easy",
+    "category": "security",
+    "question": "Which option is the best example of a strong password?",
+    "choices": ["password123", "qwerty", "Summer2026", "V7p!k2Z#n9Q"],
+    "answerIndex": 3
+  },
+  {
+    "id": "E005",
+    "difficulty": "easy",
+    "category": "networks",
+    "question": "What does IP stand for in networking?",
+    "choices": ["Internet Process", "Internal Program", "Internet Protocol", "Interface Port"],
+    "answerIndex": 2
+  },
+  {
+    "id": "E006",
+    "difficulty": "easy",
+    "category": "databases",
+    "question": "In a relational database, what is a primary key used for?",
+    "choices": ["To encrypt table data", "To uniquely identify a row", "To sort rows by default", "To store large files"],
+    "answerIndex": 1
+  },
+  {
+    "id": "E007",
+    "difficulty": "easy",
+    "category": "os",
+    "question": "Which operating system kernel is Linux based?",
+    "choices": ["Windows", "Android", "iOS", "MS DOS"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M001",
+    "difficulty": "medium",
+    "category": "cs_fundamentals",
+    "question": "What is the time complexity of binary search on a sorted array with n elements?",
+    "choices": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M002",
+    "difficulty": "medium",
+    "category": "os",
+    "question": "In an operating system, what is a process?",
+    "choices": ["A program stored on disk", "A program currently executing", "A type of hardware driver", "A network request"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M003",
+    "difficulty": "medium",
+    "category": "security",
+    "question": "What is the main purpose of hashing a password before storing it?",
+    "choices": ["To compress it", "To make it reversible later", "To avoid storing the original password", "To speed up login by skipping checks"],
+    "answerIndex": 2
+  },
+  {
+    "id": "M004",
+    "difficulty": "medium",
+    "category": "networks",
+    "question": "Which protocol is primarily used to securely browse websites?",
+    "choices": ["HTTP", "FTP", "HTTPS", "Telnet"],
+    "answerIndex": 2
+  },
+  {
+    "id": "M005",
+    "difficulty": "medium",
+    "category": "databases",
+    "question": "Which SQL command is used to retrieve data from a table?",
+    "choices": ["INSERT", "SELECT", "UPDATE", "DELETE"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M006",
+    "difficulty": "medium",
+    "category": "web",
+    "question": "In a web app, what does an API usually provide?",
+    "choices": ["A place to store images", "A set of endpoints for sending and receiving data", "A tool to design web pages visually", "A replacement for databases"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M007",
+    "difficulty": "medium",
+    "category": "cs_fundamentals",
+    "question": "Which option best describes recursion?",
+    "choices": ["A loop that runs forever", "A function calling itself to solve a problem", "A way to store data in a database", "A method to compress files"],
+    "answerIndex": 1
+  },
+  {
+    "id": "H001",
+    "difficulty": "hard",
+    "category": "cs_fundamentals",
+    "question": "Which algorithm finds the shortest paths from one source node to all other nodes in a graph with nonnegative edge weights?",
+    "choices": ["Dijkstra algorithm", "Kruskal algorithm", "Prim algorithm", "Depth first search"],
+    "answerIndex": 0
+  },
+  {
+    "id": "H002",
+    "difficulty": "hard",
+    "category": "os",
+    "question": "What is the main goal of a virtual memory system?",
+    "choices": ["To increase CPU clock speed", "To allow processes to use more memory than physical RAM by using disk", "To store files faster than SSDs", "To prevent all memory leaks"],
+    "answerIndex": 1
+  },
+  {
+    "id": "H003",
+    "difficulty": "hard",
+    "category": "security",
+    "question": "In public key cryptography, which key is used to verify a digital signature created by a person?",
+    "choices": ["The person public key", "The person private key", "A shared symmetric key", "A hash key stored on the server"],
+    "answerIndex": 0
+  },
+  {
+    "id": "H004",
+    "difficulty": "hard",
+    "category": "databases",
+    "question": "Which normal form is most directly focused on removing partial dependency on part of a composite key?",
+    "choices": ["First normal form", "Second normal form", "Third normal form", "Boyce Codd normal form"],
+    "answerIndex": 1
+  },
+  {
+    "id": "H005",
+    "difficulty": "hard",
+    "category": "networks",
+    "question": "In TCP, what is the purpose of the three way handshake?",
+    "choices": ["To encrypt the connection", "To establish a connection and synchronize sequence numbers", "To assign an IP address", "To detect malware on the network"],
+    "answerIndex": 1
+  },
+  {
+    "id": "H006",
+    "difficulty": "hard",
+    "category": "cs_fundamentals",
+    "question": "Which sorting algorithm is stable in its typical implementation and has average time complexity O(n log n)?",
+    "choices": ["Quick sort", "Heap sort", "Merge sort", "Selection sort"],
+    "answerIndex": 2
+  },
+  {
+    "id": "H007",
+    "difficulty": "hard",
+    "category": "web",
+    "question": "Which vulnerability happens when untrusted input is included in a database query without proper parameterization?",
+    "choices": ["Cross site scripting", "SQL injection", "DNS poisoning", "ARP spoofing"],
+    "answerIndex": 1
+  }, 
+  {
+  "id": "E008",
+  "difficulty": "easy",
+  "category": "cs_fundamentals",
+  "question": "What does GPU stand for?",
+  "choices": ["General Processing Unit", "Graphics Processing Unit", "Graphical Program Utility", "Global Processing Utility"],
+  "answerIndex": 1
+  },
+  {
+    "id": "E009",
+    "difficulty": "easy",
+    "category": "cs_fundamentals",
+    "question": "Which number system uses only the digits 0 and 1?",
+    "choices": ["Decimal", "Binary", "Hexadecimal", "Octal"],
+    "answerIndex": 1
+  },
+  {
+    "id": "E010",
+    "difficulty": "easy",
+    "category": "web",
+    "question": "What does URL stand for?",
+    "choices": ["Uniform Resource Locator", "Universal Route Link", "Unified Resource Language", "Uniform Reference Link"],
+    "answerIndex": 0
+  },
+  {
+    "id": "E011",
+    "difficulty": "easy",
+    "category": "networks",
+    "question": "Which port is commonly used for HTTPS?",
+    "choices": ["21", "22", "80", "443"],
+    "answerIndex": 3
+  },
+  {
+    "id": "E012",
+    "difficulty": "easy",
+    "category": "databases",
+    "question": "What does SQL stand for?",
+    "choices": ["Structured Query Language", "Simple Query Logic", "System Query Layer", "Standard Question Language"],
+    "answerIndex": 0
+  },
+  {
+    "id": "E013",
+    "difficulty": "easy",
+    "category": "os",
+    "question": "Which of these is a command line interface program commonly used on Linux?",
+    "choices": ["bash", "Paint", "Safari", "Notepad"],
+    "answerIndex": 0
+  },
+  {
+    "id": "E014",
+    "difficulty": "easy",
+    "category": "security",
+    "question": "What does MFA stand for in security?",
+    "choices": ["Multiple File Access", "Multi Factor Authentication", "Main Firewall Agent", "Managed Filter Authorization"],
+    "answerIndex": 1
+  },
+  {
+    "id": "E015",
+    "difficulty": "easy",
+    "category": "cs_fundamentals",
+    "question": "Which data structure uses a last in, first out rule?",
+    "choices": ["Queue", "Stack", "Tree", "Hash table"],
+    "answerIndex": 1
+  },
+  {
+    "id": "E016",
+    "difficulty": "easy",
+    "category": "web",
+    "question": "Which HTTP method is commonly used to request data from a server?",
+    "choices": ["GET", "PUSH", "FETCH", "TAKE"],
+    "answerIndex": 0
+  },
+  {
+    "id": "E017",
+    "difficulty": "easy",
+    "category": "networks",
+    "question": "What does DNS do?",
+    "choices": ["Encrypts network traffic", "Converts domain names into IP addresses", "Stores files in the cloud", "Blocks malware automatically"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M008",
+    "difficulty": "medium",
+    "category": "cs_fundamentals",
+    "question": "What is the average time complexity of merge sort?",
+    "choices": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+    "answerIndex": 2
+  },
+  {
+    "id": "M009",
+    "difficulty": "medium",
+    "category": "networks",
+    "question": "Which protocol provides reliable, ordered delivery of data?",
+    "choices": ["UDP", "TCP", "ICMP", "ARP"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M010",
+    "difficulty": "medium",
+    "category": "os",
+    "question": "What is a thread?",
+    "choices": ["A stored file on disk", "A lightweight unit of execution within a process", "A type of network connection", "A memory address range"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M011",
+    "difficulty": "medium",
+    "category": "databases",
+    "question": "What is a foreign key used for?",
+    "choices": ["To uniquely identify a row in the same table", "To link a row to a row in another table", "To encrypt a column", "To speed up file downloads"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M012",
+    "difficulty": "medium",
+    "category": "security",
+    "question": "Which technique is used to prevent SQL injection most effectively?",
+    "choices": ["Using parameterized queries", "Using longer passwords", "Using smaller databases", "Using more CPU cores"],
+    "answerIndex": 0
+  },
+  {
+    "id": "M013",
+    "difficulty": "medium",
+    "category": "cs_fundamentals",
+    "question": "Which traversal visits the root node first, then left subtree, then right subtree?",
+    "choices": ["Inorder", "Preorder", "Postorder", "Level order"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M014",
+    "difficulty": "medium",
+    "category": "web",
+    "question": "What does REST most commonly refer to in web development?",
+    "choices": ["A database storage format", "A style for designing web APIs", "A programming language", "A type of encryption"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M015",
+    "difficulty": "medium",
+    "category": "os",
+    "question": "What is a deadlock?",
+    "choices": ["A crash caused by low battery", "A situation where processes wait forever for resources held by each other", "A firewall rule that blocks a port", "A file that cannot be deleted"],
+    "answerIndex": 1
+  },
+  {
+    "id": "M016",
+    "difficulty": "medium",
+    "category": "databases",
+    "question": "Which SQL clause is used to filter rows based on a condition?",
+    "choices": ["WHERE", "ORDER", "GROUP", "LIMIT"],
+    "answerIndex": 0
+  },
+  {
+    "id": "M017",
+    "difficulty": "medium",
+    "category": "security",
+    "question": "What is the main goal of a denial of service attack?",
+    "choices": ["To steal passwords silently", "To make a service unavailable to users", "To upgrade server hardware", "To compress network traffic"],
+    "answerIndex": 1
+  },
+  {
+    "id": "H008",
+    "difficulty": "hard",
+    "category": "cs_fundamentals",
+    "question": "What is the time complexity of breadth first search on a graph using an adjacency list?",
+    "choices": ["O(V + E)", "O(V^2)", "O(E log V)", "O(log V)"],
+    "answerIndex": 0
+  },
+  {
+    "id": "H009",
+    "difficulty": "hard",
+    "category": "os",
+    "question": "Which CPU scheduling algorithm is typically preemptive and uses a fixed time slice?",
+    "choices": ["First come first served", "Shortest job first", "Round robin", "Priority scheduling only"],
+    "answerIndex": 2
+  },
+  {
+    "id": "H010",
+    "difficulty": "hard",
+    "category": "security",
+    "question": "What does ASLR primarily do?",
+    "choices": ["Encrypts files on disk", "Randomizes memory addresses to make exploitation harder", "Blocks phishing websites", "Checks passwords for length only"],
+    "answerIndex": 1
+  },
+  {
+    "id": "H011",
+    "difficulty": "hard",
+    "category": "networks",
+    "question": "What is ARP used for on a local network?",
+    "choices": ["Mapping IP addresses to MAC addresses", "Encrypting packets end to end", "Routing traffic between continents", "Compressing network frames"],
+    "answerIndex": 0
+  },
+  {
+    "id": "H012",
+    "difficulty": "hard",
+    "category": "databases",
+    "question": "In database transactions, what does the I in ACID stand for?",
+    "choices": ["Indexing", "Isolation", "Integrity", "Iteration"],
+    "answerIndex": 1
+  },
+  {
+    "id": "H013",
+    "difficulty": "hard",
+    "category": "cs_fundamentals",
+    "question": "Which data structure is most directly used to implement a priority queue efficiently?",
+    "choices": ["Array", "Linked list", "Binary heap", "Stack"],
+    "answerIndex": 2
+  },
+  {
+    "id": "H014",
+    "difficulty": "hard",
+    "category": "web",
+    "question": "Which HTTP status code means the client is not authorized and must authenticate?",
+    "choices": ["200", "301", "401", "500"],
+    "answerIndex": 2
+  },
+  {
+    "id": "H015",
+    "difficulty": "hard",
+    "category": "cs_fundamentals",
+    "question": "In Big O notation, what is the time complexity of inserting an item into a hash table on average (with a good hash function)?",
+    "choices": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "answerIndex": 0
+  },
+  {
+    "id": "H016",
+    "difficulty": "hard",
+    "category": "cs_fundamentals",
+    "question": "Which statement best describes the CAP theorem in distributed systems?",
+    "choices": ["You can always have perfect security and perfect speed at the same time", "A system can guarantee consistency, availability, and partition tolerance all at once", "A distributed system can fully guarantee at most two of consistency, availability, and partition tolerance during partitions", "CAP is a sorting algorithm used for large datasets"],
+    "answerIndex": 2
+  }
+]

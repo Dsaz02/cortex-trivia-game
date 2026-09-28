@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Cortex Trivia — Quiz</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<!-- JOSE INTEGRATION: app.js uses data-page="quiz" -->
+<body data-page="quiz">
+  <header class="header">
+    <div class="container header__inner">
+      <h1 class="brand">Cortex Trivia</h1>
+      <div class="row">
+        <span class="pill" id="progressPill">Question — / 10</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2 id="questionText">Loading question…</h2>
+
+      <div class="answers" id="answers">
+        <!-- choices inserted by app.js -->
+      </div>
+
+      <div class="row right">
+        <!-- JOSE INTEGRATION: these must be enabled so app.js can drive the quiz -->
+        <button class="btn primary" id="submitBtn">Submit</button>
+        <button class="btn" id="nextBtn">Next</button>
+      </div>
+
+      <div class="status" id="quizStatus">Fetching question set…</div>
+      <p id="timer"> 30</p>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
