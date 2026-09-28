@@ -60,25 +60,12 @@ Cortex Trivia uses a client-server architecture:
 
 Each game selects 10 random, non-repeating questions and distributes the same question sequence to all players.
 
-## Project Structure
+## Team
 
-```text
-cortex-trivia-game/
-├── backend/python/
-│   ├── app.py
-│   └── calculateScoring.py
-├── db/
-│   ├── cs_question_bank.json
-│   ├── cybersec_question_bank.json
-│   ├── data_science_question_bank.json
-│   └── information_technology_question_bank.json
-├── frontend/
-│   ├── index.html
-│   ├── host.html
-│   ├── player.html
-│   ├── quiz.html
-│   ├── results.html
-│   ├── app.js
-│   └── styles.css
-└── docs/
-    └── architecture.md
+Cortex Trivia was developed collaboratively by:
+
+- Diego A. Sanchez
+- Jose Carlos Rodriguez
+- Daniel Losa
+- Renier Herba Borrego
+- Deijen Severino
